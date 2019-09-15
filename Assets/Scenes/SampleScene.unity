@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 1294401023}
   - component: {fileID: 1294401019}
   m_Layer: 0
-  m_Name: claudia
+  m_Name: Claudia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f5df32bb10054ee78a0905e30d1edd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 350
+  force: 600
   rotationOffset: 0.2
 --- !u!212 &1294401021
 SpriteRenderer:

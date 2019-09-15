@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) //TODO change for tap
         {
-            rigid.velocity += Vector2.up * force * Time.deltaTime;
+            rigid.AddForce(Vector2.up * force * Time.deltaTime, ForceMode2D.Impulse);
             print(rigid.velocity);
         }
     }
